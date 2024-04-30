@@ -46,7 +46,7 @@ app_license = "mit"
 
 # website user home page (by Role)
 # role_home_page = {
-# 	"Role": "home_page"
+# 	"Patient": "clinic"
 # }
 
 # Generators

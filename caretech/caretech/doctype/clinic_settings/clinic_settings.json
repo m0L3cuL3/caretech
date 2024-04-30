@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-24 17:35:10.261874",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "clinic_name",
+  "address",
+  "column_break_yuzx",
+  "clinic_email",
+  "phone_number",
+  "section_break_hhaj",
+  "clinic_schedule"
+ ],
+ "fields": [
+  {
+   "fieldname": "clinic_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Clinic Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "column_break_yuzx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "clinic_email",
+   "fieldtype": "Data",
+   "label": "Clinic Email"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "section_break_hhaj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "clinic_schedule",
+   "fieldtype": "Table",
+   "label": "Clinic Schedule",
+   "options": "Clinic Schedule"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-04-24 17:50:21.568232",
+ "modified_by": "Administrator",
+ "module": "Caretech",
+ "name": "Clinic Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

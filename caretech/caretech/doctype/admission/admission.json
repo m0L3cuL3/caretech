@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-24 17:04:32.882790",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "admission_information_tab",
+  "patient",
+  "section_break_oycv",
+  "admission_date",
+  "discharge_date",
+  "column_break_ssyc",
+  "hospital_name",
+  "section_break_rkpm",
+  "final_diagnosis",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "admission_information_tab",
+   "fieldtype": "Tab Break",
+   "label": "Admission Information"
+  },
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Patient",
+   "options": "Patient",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_oycv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "admission_date",
+   "fieldtype": "Datetime",
+   "label": "Admission Date"
+  },
+  {
+   "fieldname": "discharge_date",
+   "fieldtype": "Datetime",
+   "label": "Discharge Date"
+  },
+  {
+   "fieldname": "column_break_ssyc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hospital_name",
+   "fieldtype": "Data",
+   "label": "Hospital Name"
+  },
+  {
+   "fieldname": "section_break_rkpm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "final_diagnosis",
+   "fieldtype": "Long Text",
+   "label": "Final Diagnosis"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-24 17:24:09.686827",
+ "modified_by": "Administrator",
+ "module": "Caretech",
+ "name": "Admission",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

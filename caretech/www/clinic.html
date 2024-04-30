@@ -1,0 +1,19 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<h1>{{ name }}</h1>
+<p>{{ address }}</p>
+<p>{{ phone_number }}</p>
+
+
+{% for shift in schedule %}
+<div class="card my-4" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">{{ shift.day }}</h5>
+        <p class="card-text">{{ shift.time }} </p>
+        <a href="#" class="btn btn-primary">Set Schedule</a>
+    </div>
+</div>
+{% endfor %}
+
+{% endblock %}
